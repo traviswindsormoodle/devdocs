@@ -390,6 +390,7 @@ Garske
 Gary
 Gasper
 Gasset
+Gattinger
 Gaudreau
 Gauk
 Gaur
@@ -693,6 +694,7 @@ Lundberg
 Luuk
 Lyons
 Lévesque
+Löwis
 Macgirvin
 Madden
 Mady
@@ -926,6 +928,7 @@ Pinheiro
 Pinto
 Pisarev
 Piton
+Plasger
 Platts
 Poder
 Poggenpohl
@@ -1479,6 +1482,7 @@ mikewaters
 miksik
 mindforge
 minkowski
+mioyu-ubiq
 mits
 mjollnir_
 mkassaei
