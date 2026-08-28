@@ -17,7 +17,7 @@ The [Moodle 5.3 QA cycle](https://moodle.atlassian.net/jira/dashboards/10612) op
 
 ## How to start
 
-**1. Set up your accounts:** create an account on the [Moodle Tracker](https://id.atlassian.com/login) (that's where you will report your test results) and an account on [moodle.org](https://moodle.org/login/index.php). Use the same email address for both accounts. You can do this anytime.
+**1. Set up your accounts** create an account on the [Moodle Tracker](https://id.atlassian.com/login) (that's where you will report your test results) and an account on [moodle.org](https://moodle.org/login/index.php). Use the same email address for both accounts. You can do this anytime.
 
 <details>
 <summary>Details on setting up your accounts</summary>
@@ -43,45 +43,48 @@ If you don't already have a moodle.org account, create one using the same email 
 
 </details>
 
-**2. Once the QA cycle is open, choose a test to run:** browse the lists of tests for beginners grouped by number of steps (short, medium, long), or explore the full QA testing dashboard. Once you find a test you like, assign it to yourself on the Moodle Tracker.
+**2. Once the QA cycle is open, choose a test to run.** Start with an easy test that is unassigned or explore the full test case list. Both are the top two widgets on the [QA testing dashboard](https://moodle.atlassian.net/jira/dashboards/10612). Once you find a test you like, assign it to yourself on the Moodle Tracker.
 
 <details>
 <summary>Details on picking your first test</summary>
 
-Once a cycle is open, check the preselected test cases list. This is where you'll see unassigned tests that don't require a technical background. Test cases are written as a series of steps with an expected result.
+Once the testing cycle is open, check for unassigned beginner test cases. This is the top widget on the [dashboard](https://moodle.atlassian.net/jira/dashboards/10612). Test cases are written as a series of steps with an expected result.
 
 You will see three columns:
 
-- **Key**: indicates the number of the test
+- **Key**: indicates the ID of the test
 - **Summary**: it's the title of the test
 - **Components**: the part of Moodle the test belongs to (e.g. 'Book activity', 'Quiz'). Particularly useful if you want to focus on an area you're already familiar with.
 
 Here's how to find and assign yourself a test:
 
-1. Browse tests for beginners. We have grouped the list of tests for beginners by number of steps, so you can gauge how long it'll take.
+1. Browse tests for beginners in the first widget on the [dashboard](https://moodle.atlassian.net/jira/dashboards/10612)
 2. Once you find a test you are interested in, click on the MDLQA-XX under the 'Key' column.
 3. This opens the test on the Moodle Tracker.
-4. Read the whole thing once before assigning it to yourself, so you know what you're aiming for.
-5. If you aren't interested, keep browsing tests for beginners.
+4. Read the whole thing once before assigning it to yourself, so you know what you're aiming for. You can see how many steps there are in the Description, so you can gauge how long it'll take.
+5. If you aren't interested, close it and keep browsing tests for beginners.
 6. If you're interested, assign it to yourself.
 
 We'd suggest only assigning yourself tests you already have some familiarity with, or are genuinely curious to learn by doing. And you can unassign yourself from a test at any time; no explanation needed.
 
 </details>
 
-[Full list of tests for beginners](https://moodle.atlassian.net/jira/dashboards/10612)
+[Full list of tests for beginners](https://moodle.atlassian.net/issues/?filter=29296)
 
-**3. Run the test** in the Moodle QA testing site — the login details are available in the main page.
+**3. Run the test.** Avoid setting up your own Moodle site and use the [Moodle QA testing site](https://qa.moodledemo.net/) — the login details are available on the test site landing page.
 
 <details>
 <summary>Details on running a test on the shared site</summary>
 
 Moodle QA testing site: [Moodle QA Testing Site](https://qa.moodledemo.net/)
 
-⚠️ Two things worth knowing before you start:
+⚠️ Before you start, remember a few points:
 
 - The site resets hourly at the top of the hour (so at 01:00, 02:00, and so on) so please be mindful if you are running a long test.
 - Don't enter any personal or sensitive information into the site.
+- More information on the Moodle QA Testing Site can be found in the [QA Process page](/general/development/process/testing/qa#moodle-qa-testing-site)
+- When you start executing a test case, select the `Start testing` action to mark the test as `In Progress`.
+- If you have some questions, check out the [FAQ](./faq.md) for further assistance.
 
 </details>
 
@@ -100,22 +103,27 @@ If something that's not related to the test fails, add the `qa_help_needed` labe
 <summary>Template for a failed test</summary>
 
 :::tip[Environment]
+
 - Site used: QA Testing Site / Local test site (Moodle version: 5.3dev Build: YYYYMMDD)
 - Browser: (name and version)
 - Device/OS: (e.g. Windows 11 / macOS / iOS / Android)
 - Role(s) used: Admin / Teacher / Student
+
 :::
 :::danger[Test failed]
 It doesn't work according to instructions.
+
 - Step that failed: Step #
 - Expected result: (What should have happened according to the instructions)
 - Actual result: (Describe precisely what happened, including any error messages or unexpected behavior)
+
 :::
 :::warning[Questions/Doubts]
 If you are unsure whether this is a bug or just a confusing step, describe your doubts here.
 :::
 :::note
 Attached are screenshots or logs showing the failure:
+
 - Step 1:
 - Step 2:
 - Step #:
@@ -128,16 +136,19 @@ At least one screenshot per critical step. Screenshots may be grouped if appropr
 <summary>Template for a passed test</summary>
 
 :::tip[Environment]
+
 - Site used: QA Testing Site / Local test site (Moodle version: 5.3dev Build: YYYYMMDD)
 - Browser: (e.g. Firefox 148.0 / Chrome 145.0.7632.117 / Safari 26 / …)
 - Device/OS: (e.g. Windows 11 / macOS / Ubuntu / iOS / Android 14 / …)
 - Role(s) used: Admin / Teacher / Student
+
 :::
 
 Works according to instructions. Test passed!
 
 :::note
 Attached are screenshots for:
+
 - Step 1:
 - Step 2:
 - Step #:
