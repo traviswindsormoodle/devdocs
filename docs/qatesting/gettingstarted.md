@@ -12,7 +12,7 @@ sidebar_position: 1
 A friendly guide for anyone thinking about joining a Moodle QA testing cycle for the first time.
 
 :::note[Next QA Cycle]
-The [Moodle 5.3 QA cycle](https://moodle.atlassian.net/jira/dashboards/10612) opens 31 August 2026.
+The [Moodle 5.3 QA cycle](https://moodle.atlassian.net/jira/dashboards/10612) opens 1st September 2026.
 :::
 
 ## How to start
