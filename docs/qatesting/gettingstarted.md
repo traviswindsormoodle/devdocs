@@ -132,7 +132,7 @@ Works according to instructions. Test passed!
 Attached are screenshots for:
 Step 1:
 Step 2:
-Step ..
+Step #:
 At least one screenshot per critical step. Screenshots may be grouped if appropriate.
 
 (Please ensure you have attached the files to this Jira issue)
@@ -157,6 +157,6 @@ After installing the extension, a "Select template" dropdown will appear above t
 This guide covers everything a new tester needs. If you'd like the complete picture, the [QA testing documentation](https://moodledev.io/general/development/process/testing/qa) has all the technical specifications.
 :::
 
-Thanks for considering this.  Every test result helps, even if it's just one or two.  Welcome aboard, and see you in the cycle 😊
+Thanks for considering this. Every test result helps, even if it's just one or two. Welcome aboard, and see you in the cycle 😊
 
 ---

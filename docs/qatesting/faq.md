@@ -14,9 +14,9 @@ sidebar_position: 3
 <details>
 <summary>Do I need to be a developer?</summary>
 
-As mentioned above, no. This is one of the most common misconceptions, and a big part of why we're writing this page. Most QA testing is about using Moodle like a normal user would: following a written test case ("log in, create a lesson, add a student") and reporting whether it worked as expected. You're not writing code, and you don't need to know how Moodle is built under the hood.
+No. This is one of the most common misconceptions, and a big part of why we're writing this page. Most QA testing is about using Moodle like a normal user would: following a written test case ("log in, create a lesson, add a student") and reporting whether it worked as expected. You're not writing code, and you don't need to know how Moodle is built under the hood.
 
-The only two new things are creating the Moodle Tracker account and reporting your results there instead of in your own notes. Both are learnable in a few minutes, and covered in "How to start" above.
+The only two new things are creating the Moodle Tracker account and reporting your results there instead of in your own notes. Both are learnable in a few minutes, and covered in the Getting Started guide.
 
 </details>
 
@@ -39,7 +39,7 @@ The Moodle 5.3 cycle runs from 31 August 2026 to 2 October 2026.
 <details>
 <summary>How can I hear about future cycles?</summary>
 
-For future cycles, subscribe to the [Testing and QA forum](https://moodle.org/mod/forum/view.php), where cycle announcements and any changes get posted.
+For future cycles, subscribe to the [Testing and QA forum](https://moodle.org/mod/forum/view.php?id=56), where cycle announcements and any changes get posted.
 
 </details>
 
