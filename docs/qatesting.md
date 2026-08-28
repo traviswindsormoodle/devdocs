@@ -17,7 +17,7 @@ Moodle is used by millions of learners and teachers around the world, and it's s
 **Do I need a Moodle site?** No, we provide a shared QA Moodle site that's already set up and ready to log into, no installation needed.
 
 :::note[Next QA Cycle]
-The [Moodle 5.3 QA cycle](https://moodle.atlassian.net/jira/dashboards/10612) opens 31 August 2026.
+The [Moodle 5.3 QA cycle](https://moodle.atlassian.net/jira/dashboards/10612) opens 1st September 2026.
 :::
 
 If you want to understand how to Get Started as a tester, read our [Getting Started](./qatesting/gettingstarted.md) guide
