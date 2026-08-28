@@ -311,6 +311,7 @@ tablespace
 tasklogs
 templatable
 temptables
+testingbadge
 texteditor
 themers
 thirdparty

@@ -65,7 +65,10 @@ Source: ["QA testing for Moodle 4.0 – A community effort!"](https://moodle.com
 <summary>What do I get out of it?</summary>
 
 Beyond directly improving software used by learners worldwide, your Moodle profile will get a QA tester badge for each cycle you help test. This is the badge from 2025:
-!![2025 Moodle Testing Badge](./_faq/testingbadge.png)
+
+import QATestingBadge from './_faq/testingbadge.png';
+
+<center><img src={QATestingBadge} width="200" alt="Moodle QA Testing Badge 2025"/></center>
 
 Also, your name will appear in the [Moodle testing credits page](/general/community/credits/testing) at the end of the QA cycle. It's also a genuinely good, low-pressure way to get comfortable with how a large open-source project runs, and how QA works in software generally, if that's something you're curious about.
 
