@@ -30,7 +30,7 @@ As mentioned above, testing is flexible and asynchronous. No fixed hours, no min
 </details>
 
 <details>
-<summary>When does this cycle run?</summary>
+<summary>When does the next QA cycle run?</summary>
 
 The Moodle 5.3 cycle runs from 31 August 2026 to 2 October 2026.
 
@@ -64,9 +64,10 @@ Source: ["QA testing for Moodle 4.0 – A community effort!"](https://moodle.com
 <details>
 <summary>What do I get out of it?</summary>
 
-Beyond directly improving software used by learners worldwide, you will get a QA tester badge for each cycle you help test *(page includes an image: "f3.png")*.
+Beyond directly improving software used by learners worldwide, your Moodle profile will get a QA tester badge for each cycle you help test. This is the badge from 2025:
+!![2025 Moodle Testing Badge](./_faq/testingbadge.png)
 
-Also, your name will appear in the [Moodle testing credits page](https://moodledev.io/general/community/credits/testing) at the end of the QA cycle. It's also a genuinely good, low-pressure way to get comfortable with how a large open-source project runs, and how QA works in software generally, if that's something you're curious about.
+Also, your name will appear in the [Moodle testing credits page](/general/community/credits/testing) at the end of the QA cycle. It's also a genuinely good, low-pressure way to get comfortable with how a large open-source project runs, and how QA works in software generally, if that's something you're curious about.
 
 </details>
 
@@ -90,7 +91,7 @@ If something unrelated to the test itself goes wrong, add the `qa_help_needed` l
 <details>
 <summary>Go beyond preselected tests</summary>
 
-Visit the QA testing dashboard — [Moodle 5.3 QA testing (update later)](https://moodle.atlassian.net/jira/dashboards/10612) — to explore the full list of tests. For example, if you want tests for the "Book" activity aimed at "Teachers", you can [filter by those components](https://moodle.atlassian.net/issues/).
+Visit the QA testing dashboard — [Moodle 5.3 QA testing](https://moodle.atlassian.net/jira/dashboards/10612) — to explore the full list of tests. For example, if you want tests for the "Book" activity aimed at "Teachers", you can [filter by those components](https://moodle.atlassian.net/issues/).
 
 </details>
 
@@ -99,7 +100,7 @@ Visit the QA testing dashboard — [Moodle 5.3 QA testing (update later)](https:
 
 If your only available site is running a different Moodle version (for example, your organisation's live site), please don't use it for this QA cycle. We're testing 5.3 specifically, not a previous version.
 
-If you do have your own site running the latest Moodle 5.3dev, check the [QA testing documentation for developers](https://moodledev.io/general/development/process/testing/qa) first, then go ahead and use it.
+If you do have your own site running the latest Moodle 5.3dev, check the [QA testing documentation for developers](/general/development/process/testing/qa) first, then go ahead and use it.
 
 </details>
 
