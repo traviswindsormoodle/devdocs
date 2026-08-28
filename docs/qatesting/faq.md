@@ -16,7 +16,7 @@ sidebar_position: 3
 
 No. This is one of the most common misconceptions, and a big part of why we're writing this page. Most QA testing is about using Moodle like a normal user would: following a written test case ("log in, create a lesson, add a student") and reporting whether it worked as expected. You're not writing code, and you don't need to know how Moodle is built under the hood.
 
-The only two new things are creating the Moodle Tracker account and reporting your results there instead of in your own notes. Both are learnable in a few minutes, and covered in the Getting Started guide.
+The only two new things are creating the Moodle Tracker account and reporting your results there instead of in your own notes. Both are learnable in a few minutes, and covered in the [Getting Started](./gettingstarted.md) guide.
 
 </details>
 
