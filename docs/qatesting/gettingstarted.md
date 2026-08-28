@@ -96,51 +96,62 @@ Reminder: attach a screenshot and a short note if anything didn't work as expect
 
 If something that's not related to the test fails, add the `qa_help_needed` label and leave a comment with your question; we'll get back to you. And if the test instructions themselves seem outdated or unclear, add the `qa_instructions_update` label and note which steps need fixing; that feedback helps the next tester too.
 
-**Template for a failed test**
+<details>
+<summary>Template for a failed test</summary>
 
-```
-Environment
-Site used: QA Testing Site / Local test site (Moodle version: 5.3dev Build: YYYYMMDD)
-Browser: (name and version)
-Device/OS: (e.g. Windows 11 / macOS / iOS / Android)
-Role(s) used: Admin / Teacher / Student
-
-Test failed. It doesn't work according to instructions.
-Step that failed: Step #
-Expected result: (What should have happened according to the instructions)
-Actual result: (Describe precisely what happened, including any error messages or unexpected behavior)
-Questions/Doubts: If you are unsure whether this is a bug or just a confusing step, describe your doubts here.
-
+:::tip[Environment]
+- Site used: QA Testing Site / Local test site (Moodle version: 5.3dev Build: YYYYMMDD)
+- Browser: (name and version)
+- Device/OS: (e.g. Windows 11 / macOS / iOS / Android)
+- Role(s) used: Admin / Teacher / Student
+:::
+:::danger[Test failed]
+It doesn't work according to instructions.
+- Step that failed: Step #
+- Expected result: (What should have happened according to the instructions)
+- Actual result: (Describe precisely what happened, including any error messages or unexpected behavior)
+:::
+:::warning[Questions/Doubts]
+If you are unsure whether this is a bug or just a confusing step, describe your doubts here.
+:::
+:::note
 Attached are screenshots or logs showing the failure:
-Step 1:
-Step 2:
-Step #:
+- Step 1:
+- Step 2:
+- Step #:
+
 At least one screenshot per critical step. Screenshots may be grouped if appropriate.
-```
+:::
+</details>
 
-**Template for a passed test**
+<details>
+<summary>Template for a passed test</summary>
 
-```
-Environment
-Site used: QA Testing Site / Local test site (Moodle version: 5.3dev Build: YYYYMMDD)
-Browser: (e.g. Firefox 148.0 / Chrome 145.0.7632.117 / Safari 26 / …)
-Device/OS: (e.g. Windows 11 / macOS / Ubuntu / iOS / Android 14 / …)
-Role(s) used: Admin / Teacher / Student
+:::tip[Environment]
+- Site used: QA Testing Site / Local test site (Moodle version: 5.3dev Build: YYYYMMDD)
+- Browser: (e.g. Firefox 148.0 / Chrome 145.0.7632.117 / Safari 26 / …)
+- Device/OS: (e.g. Windows 11 / macOS / Ubuntu / iOS / Android 14 / …)
+- Role(s) used: Admin / Teacher / Student
+:::
 
 Works according to instructions. Test passed!
 
+:::note
 Attached are screenshots for:
-Step 1:
-Step 2:
-Step #:
+- Step 1:
+- Step 2:
+- Step #:
+
 At least one screenshot per critical step. Screenshots may be grouped if appropriate.
 
 (Please ensure you have attached the files to this Jira issue)
+:::
 
-PS By marking this test as PASS, I confirm that I followed the instructions exactly as written; all required preconditions were set up; no additional settings were modified; and the test description is up-to-date and clear.
-```
+By marking this test as PASS, I confirm that I followed the instructions exactly as written; all required preconditions were set up; no additional settings were modified; and the test description is up-to-date and clear.
+</details>
 
-**How to install these templates on the Moodle Tracker (browser extension)**
+<details>
+<summary>How to install these templates on the Moodle Tracker (browser extension)</summary>
 
 You can use these templates directly in Jira by installing the "Canned Responses Pro" for Jira browser extension. It's available for:
 
@@ -150,7 +161,7 @@ You can use these templates directly in Jira by installing the "Canned Responses
 
 After installing the extension, a "Select template" dropdown will appear above the Jira comment editor. From there you can select the templates "MDLQA – Test Passed" and "MDLQA – Test Failed"
 ![Canned Responses for QA](./_gettingstarted/qatemplates.png)
-
+</details>
 </details>
 
 :::note
