@@ -17,14 +17,14 @@ The [Moodle 5.3 QA cycle](https://moodle.atlassian.net/jira/dashboards/10612) op
 
 ## How to start
 
-**1. Set up your accounts** create an account on the [Moodle Tracker](https://id.atlassian.com/login) (that's where you will report your test results) and an account on [moodle.org](https://moodle.org/login/index.php). Use the same email address for both accounts. You can do this anytime.
+**1. Set up your accounts** create an account on the [Moodle Tracker](https://moodle.atlassian.net/) (that's where you will report your test results) and an account on [moodle.org](https://moodle.org/login/index.php). Use the same email address for both accounts. See below for details. You can do this anytime.
 
 <details>
 <summary>Details on setting up your accounts</summary>
 
 **Setting up your account on the Moodle Tracker**
 
-In order to assign tests to yourself and add comments you'll need to create an account on the Moodle Tracker. The Moodle Tracker is Moodle's issue-tracking system; it's how the whole community reports bugs and test results, not just testers. Sign-up takes a couple of minutes.
+The Moodle Tracker is open to the public to view tickets. However, in order to assign tests to yourself and add comments you'll need to create an account on the Moodle Tracker. The Moodle Tracker is Moodle's issue-tracking system; it's how the whole community reports bugs and test results, not just testers. Sign-up takes a couple of minutes.
 
 1. Visit the [Moodle Tracker login page](https://id.atlassian.com/login).
 2. From there you can log in using your Google, Microsoft, Apple, or Slack accounts.
